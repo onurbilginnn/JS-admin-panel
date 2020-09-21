@@ -1,0 +1,131 @@
+{
+    "welcome": "hello world",
+    "main": {
+        "header": {
+            "users": "Users",
+            "home": "Home",
+            "dashboard": "Dashboard",
+            "settings": "Settings",
+            "account": "Account",
+            "updates": "Updates",
+            "messages": "Messages",
+            "tasks": "Tasks",
+            "comments": "Comments",
+            "profile": "Profile",
+            "payments": "Payments",
+            "projects": "Projects",
+            "logout": "Logout"
+        },
+        "sideBar": {
+            "forms": {
+                "title": "Forms",
+                "createUser": "Create User",
+                "wasteForm": "Waste Form",
+                "orders": {
+                    "title": "Orders",
+                    "createOrder": "Create Order",
+                    "myOrders": "My Orders"
+                }
+            }
+        },
+        "errors": {
+            "404": {
+                "oops": "Oops! You are lost.",
+                "notFound": "The page you are looking for was not found!"
+            },
+            "frontEnd": {
+                "isEmail": "Please enter a valid email!",
+                "isPassword": "Password must contain at least one uppercase , one lower case, one special char and one digit!",
+                "isAlphanumeric": "Please include digits or letters only!",
+                "isNumeric": "Please include digits only!",
+                "notNullString": "Please select an option!",
+                "compareWith": "Passwords do not match!",
+                "required": "Field is required!",
+                "minLength": "Min length should be {{length}}!",
+                "maxLength": "Max length should be {{length}}!"
+            },
+            "backEnd": {
+                "compareNamePassword": "Username and password do not match!",
+                "422": "Validation failed!",
+                "usernameExists": "Username already exists!",
+                "usernameValid": "Please enter a valid username only letters or numbers and min 5 characters!",
+                "emailExists": "Email already exists!",
+                "emailValid": "Please enter a valid email!"
+
+            }
+        }
+    },
+    "auth": {
+        "login": {
+            "username": "Username",
+            "password": "Password",
+            "signIn": "Sign In",
+            "login": "Login",
+            "forgotPassword": "Forgot Password?"
+        }
+    },
+    "formsPost":
+    {
+        "imageUpload": {
+            "update": "Update",
+            "remove": "Remove"
+        },
+        "register": {
+            "repPassword": "Repeat Password",
+            "company": "Company",
+            "roles": {
+                "chooseARole": "Choose a Role",
+                "mint": "Mint",
+                "serialProducer": "Serial Producer",
+                "exporter": "Exporter"
+            },
+            "uploadImage": "Upload Image",
+            "create": "Create"
+        },
+        "orderForm": {
+            "orderForm": "Order Form",
+            "orderDetails": "Order Details",
+            "addPosition": "Add Position",
+            "orderInfo": "Order Information",
+            "delQty": "Delivered Quantity",
+            "totalQty": "Total Quantity",
+            "totalPrice": "Total Price",
+            "siteInfo": "Site Information",
+            "site": "Site",
+            "siteAddress": "Site Address",
+            "pickupInfo": "Pickup Information",
+            "delSite": "Delivery Site",
+            "desDelDate": "Desired Delivery Date",
+            "comments": "Comments",
+            "selectOption": "Please Select an Option",
+            "ankaraWare": "Ankara Warehouse",
+            "denizliWare": "Denizli Warehouse",
+            "istanbulWare": "İstanbul Warehouse",
+            "izmirWare": "İzmir Warehouse",
+            "mersinWare": "Mersin Warehouse",
+            "tekirdagWare": "Tekirdağ Warehouse",
+            "action": "Action",
+            "packVol": "Packaging Volume",
+            "codeType": "Code Type",
+            "prodBandRef": "Product Bandrole Reference",
+            "packType": "Packaging Type",
+            "bandType": "Bandrole Type",
+            "preactLabels": "Pre Activated Labels",
+            "qty": "Quantity",
+            "unAppBandStockQty": "Unapplied Bandrole Stock Qty",
+            "bandAppProdStockQtyProdSite": "Bandrole Applied Products Stock Qty in Production Site",
+            "bandAppProdQtyConsin": "Bandrole Applied Products Qty as Consignee",
+            "bandAppProdQtyMarkSales": "Bandrole Applied Products Qty in Own Marketing and Sales Company",
+            "bandAppProdQtyKVK": "Bandrole Applied Products Qty in Scope of KVK Article 13",
+            "codesQty": "Codes Qty",
+            "initialQty": "Initial Quantity",
+            "uniPrice": "Unitary Price",
+            "price": "Price",
+            "submit": "Submit",
+            "cancel": "Cancel"
+        },
+        "wasteForm": {
+            "wasteForm": "Waste Form"
+        }
+    }
+}

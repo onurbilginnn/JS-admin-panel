@@ -1,0 +1,130 @@
+{
+    "welcome": "Merhaba Dünya",
+    "main": {
+        "header": {
+            "users": "Kullanıcılar",
+            "home": "Anasayfa",
+            "dashboard": "Gösterge Paneli",
+            "settings": "Ayarlar",
+            "account": "Hesap",
+            "updates": "Güncelleme",
+            "messages": "Mesajlar",
+            "tasks": "Görevler",
+            "comments": "Açıklamalar",
+            "profile": "Profil",
+            "payments": "Ödemeler",
+            "projects": "Projeler",
+            "logout": "Çıkış"
+        },
+        "sideBar": {
+            "forms": {
+                "title": "Formlar",
+                "createUser": "Kullanıcı Oluştur",
+                "wasteForm": "Fire Formu",
+                "orders": {
+                    "title": "Siparişler",
+                    "createOrder": "Sipariş Oluştur",
+                    "myOrders": "Siparişlerim"
+                }
+            }
+        },
+        "errors": {
+            "404": {
+                "oops": "Hata!",
+                "notFound": "Sayfa bulunamadı!"
+            },
+            "frontEnd": {
+                "isEmail": "Lütfen uygun bir email adresi giriniz!",
+                "isPassword": "Şifre en az bir büyük, bir küçük, bir özel karakter ve bir sayı içermelidir!",
+                "isAlphanumeric": "Sadece harf veya sayı kullanın lütfen!",
+                "isNumeric": "Sadece sayı kullanın lütfen!",
+                "notNullString": "Lütfen bir seçenek seçin!",
+                "compareWith": "Şifreler eşleşmiyor!",
+                "required": "Zorunlu alan!",
+                "minLength": "Min uzunluk {{length}} olmalıdır!",
+                "maxLength": "Max uzunluk {{length}} olmalıdır!"
+            },
+            "backEnd": {
+                "compareNamePassword": "Kullanıcı adı ve şifre eşleşmiyor!",
+                "422": "Doğrulama başarısız!",
+                "usernameExists": "Bu kullanıcı adı daha önce kullanılmıştır!",
+                "usernameValid": "Sadece harf ve sayıdan oluşan min 5 karakterli bir kullacı adı girin lütfen!",
+                "emailExists": "Bu email daha önce kullanılmıştır!",
+                "emailValid": "Lütfen geçerli bir email adresi giriniz!"
+            }
+        }
+    },
+    "auth": {
+        "login": {
+            "username": "Kullanıcı Adı",
+            "password": "Şifre",
+            "signIn": "Giriş",
+            "login": "Giriş Yapın",
+            "forgotPassword": "Şifrenizi mi unuttunuz?"
+        }
+    },
+    "formsPost": {
+        "imageUpload": {
+            "update": "Değiştir",
+            "remove": "Kaldır"
+        },
+        "register": {
+            "repPassword": "Şifre Tekrarı",
+            "company": "Şirket",
+            "roles": {
+                "chooseARole": "Bir rol seçiniz",
+                "mint": "Darphane",
+                "serialProducer": "Seri Üretici",
+                "exporter": "İthalatçı"
+            },
+            "uploadImage": "Resim Yükleme",
+            "create": "Kaydet"
+        },
+        "orderForm": {
+            "orderForm": "Sipariş Formu",
+            "orderDetails": "Sipariş Detayları",
+            "addPosition": "Sipariş Kalemi Ekle",
+            "orderInfo": "Sipariş Bilgisi",
+            "delQty": "Sevkiyat Miktarı",
+            "totalQty": "Toplam Miktar",
+            "totalPrice": "Toplam Ücret",
+            "siteInfo": "Firma Bilgisi",
+            "site": "Firma",
+            "siteAddress": "Firma Adresi",
+            "pickupInfo": "Teslim Bilgisi",
+            "delSite": "Sevk Yeri",
+            "desDelDate": "İstenilen Sevk Tarihi",
+            "comments": "Açıklamalar",
+            "selectOption": "Seçiniz",
+            "ankaraWare": "Ankara Dağıtım Ofisi",
+            "denizliWare": "Denizli Dağıtım Ofisi",
+            "istanbulWare": "İstanbul PCC Merkez",
+            "izmirWare": "İzmir Dağıtım Ofisi",
+            "mersinWare": "Mersin Dağıtım Ofisi",
+            "tekirdagWare": "Tekirdağ Dağıtım Ofisi",
+            "action": "İşlem",
+            "packVol": "Ürün Ambalaj Hacmi (cl)",
+            "codeType": "Kod Tipi",
+            "prodBandRef": "Ürün Bandrol Referansı",
+            "packType": "Paketleme Tipi",
+            "bandType": "Bandrol/Etiket Çeşidi",
+            "preactLabels": "Önceden Aktive Edilmiş Bandrol",
+            "qty": "Miktar",
+            "unAppBandStockQty": "Kod Tip Bazında Mevcut Bandrol Stoğu",
+            "bandAppProdStockQtyProdSite": "Kod Tipi Bazında Üretim Tesisi ve Depolarda Bulunan Bandrollü Ürün Stoğu",
+            "bandAppProdQtyConsin": "Kod Tipi Bazında Konsinye Satışta Bulunan Bandrollü Ürün Stoğu",
+            "bandAppProdQtyMarkSales": "Kod Tipi Bazında Pazarlama ve Satış Şirketinde Bulunan Bandrollü Ürün Stoğu",
+            "bandAppProdQtyKVK": "Kod Tipi Bazında KVK Md 13 Kapsamında İlgili Kişilerde Bulunan Bandrollü Ürün Stoğu",
+            "codesQty": "Bandrol Adedi",
+            "initialQty": "Başlangıç Miktarı",
+            "uniPrice": "Birim Fiyat",
+            "price": "Fiyat",
+            "submit": "Onayla",
+            "cancel": "İptal"
+        },
+        "wasteForm": {
+            "wasteForm": "Fire Formu"
+        }
+    }
+}
+
